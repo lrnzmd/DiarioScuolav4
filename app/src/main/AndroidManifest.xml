@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".notizie.notizie"></activity>
-        <activity android:name=".lezioni.lezioni" />
+        <activity android:name=".lezioni.LezioniActivity" />
         <activity android:name=".impostazioni.impostazioni" />
         <activity android:name=".compiti.compiti" />
         <activity android:name=".appunti.AddNote"/>

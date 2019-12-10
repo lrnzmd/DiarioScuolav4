@@ -5,5 +5,5 @@ class NoteRepository (private val noteDao: NoteDao){
     suspend fun insert (note: Note){
         noteDao.insert(note) }
 
-
+    suspend fun getNote()= noteDao.getAllnote()
 }

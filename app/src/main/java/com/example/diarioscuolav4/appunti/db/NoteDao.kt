@@ -11,9 +11,9 @@ interface NoteDao {
     @Query ("SELECT * from note_table ORDER BY note ASC")
     suspend fun
 
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insert(note: Note)
+    @Insert (onConflic = OnConflictStrategy.IGNORE)
+    suspend fun insert (note: Note)
 
     @Query("DELETE FROM note_table")
-    suspend fun deleteAll()
+    suspend fun delete()
 }

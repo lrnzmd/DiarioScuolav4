@@ -17,7 +17,7 @@ class NoteActivity : AppCompatActivity() {
         setContentView(R.layout.activity_note)
         setSupportActionBar(toolbar)
 
-        noteViewModel = ViewModelProvider(this).get(noteViewMode::class.java)
+        NoteViewModel = ViewModelProvider(this).get(NoteViewModel::class.java)
 
         val fab = findViewById<FloatingActionButton>(R.id.fab)
         fab.setOnClickListener {

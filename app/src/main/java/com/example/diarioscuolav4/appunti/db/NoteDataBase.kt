@@ -7,13 +7,13 @@ import androidx.room.RoomDatabase
 
 
 @Database (entities =  arrayOf(Note::class), version = 1, exportSchema = false)
-public abstract class NoteDataBase : RoomDatabase(){
+public abstract class NoteRoomDataBase : RoomDatabase(){
     abstract fun NoteDao(): NoteDao
 
     @Volatile
-    private var INSTANCE: NoteDataBase? = null
+    private var INSTANCE: NoteRoomDataBase? = null
 
-    fun getDatabase(context: Context): NoteDataBase {
+    fun getDatabase(context: Context): NoteRoomDataBase {
         val tempInstance = INSTANCE
         if (tempInstance != null) {
             return tempInstance
@@ -21,7 +21,7 @@ public abstract class NoteDataBase : RoomDatabase(){
         synchronized(this) {
             val instance = Room.databaseBuilder(
                 context.applicationContext,
-                NoteDataBase::class.java,
+                NoteRoomDataBase::class.java,
                 "word_database"
             ).build()
             INSTANCE = instance

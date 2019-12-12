@@ -6,8 +6,6 @@ import androidx.room.PrimaryKey
 
 
 @Entity(tableName = "note_table")
-class Note (
-    @PrimaryKey
-    @ColumnInfo(name ="note") val note: String)
+class Note (@PrimaryKey @ColumnInfo(name ="note") val note: String)
 
 

@@ -10,25 +10,26 @@
         android:targetSdkVersion="29" />
 
     <application
-        android:allowBackup=""
+        android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.diarioscuolav4.notizie.notizie" />
-        <activity android:name="com.example.diarioscuolav4.lezioni.lezioni" />
+        <activity android:name="com.example.diarioscuolav4.lezioni.LezioniActivity" />
         <activity android:name="com.example.diarioscuolav4.impostazioni.impostazioni" />
         <activity android:name="com.example.diarioscuolav4.compiti.compiti" />
-        <activity android:name="com.example.diarioscuolav4.appunti.addnote" />
+        <activity android:name="com.example.diarioscuolav4.appunti.AddNote" />
         <activity
             android:name="com.example.diarioscuolav4.calendario.calendario"
             android:label="@string/title_activity_calendario"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.diarioscuolav4.appunti.note"
+            android:name="com.example.diarioscuolav4.appunti.NoteActivity"
             android:label="@string/title_activity_note"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.example.diarioscuolav4.MainActivity" >
@@ -38,6 +39,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.diarioscuolav4.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

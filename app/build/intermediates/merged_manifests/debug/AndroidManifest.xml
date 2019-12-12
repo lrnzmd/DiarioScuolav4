@@ -19,7 +19,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.diarioscuolav4.notizie.notizie" />
-        <activity android:name="com.example.diarioscuolav4.lezioni.lezioni" />
+        <activity android:name="com.example.diarioscuolav4.lezioni.LezioniActivity" />
         <activity android:name="com.example.diarioscuolav4.impostazioni.impostazioni" />
         <activity android:name="com.example.diarioscuolav4.compiti.compiti" />
         <activity android:name="com.example.diarioscuolav4.appunti.AddNote" />

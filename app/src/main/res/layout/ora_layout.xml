@@ -5,16 +5,16 @@
 
 
     <EditText
-        android:id="@+id/lezione"
+        android:id="@+id/text_materia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@id/orario"
+        android:layout_toLeftOf="@id/text_orario"
         android:inputType="textMultiLine" />
 
 
     <EditText
-        android:id="@+id/orario"
+        android:id="@+id/text_orario"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"

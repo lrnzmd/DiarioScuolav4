@@ -31,9 +31,9 @@
 21        <activity android:name="com.example.diarioscuolav4.notizie.notizie" />
 21-->C:\Users\lrnzm\Desktop\DiarioScuolav4\app\src\main\AndroidManifest.xml:12:9-62
 21-->C:\Users\lrnzm\Desktop\DiarioScuolav4\app\src\main\AndroidManifest.xml:12:19-50
-22        <activity android:name="com.example.diarioscuolav4.lezioni.lezioni" />
-22-->C:\Users\lrnzm\Desktop\DiarioScuolav4\app\src\main\AndroidManifest.xml:13:9-53
-22-->C:\Users\lrnzm\Desktop\DiarioScuolav4\app\src\main\AndroidManifest.xml:13:19-50
+22        <activity android:name="com.example.diarioscuolav4.lezioni.LezioniActivity" />
+22-->C:\Users\lrnzm\Desktop\DiarioScuolav4\app\src\main\AndroidManifest.xml:13:9-61
+22-->C:\Users\lrnzm\Desktop\DiarioScuolav4\app\src\main\AndroidManifest.xml:13:19-58
 23        <activity android:name="com.example.diarioscuolav4.impostazioni.impostazioni" />
 23-->C:\Users\lrnzm\Desktop\DiarioScuolav4\app\src\main\AndroidManifest.xml:14:9-63
 23-->C:\Users\lrnzm\Desktop\DiarioScuolav4\app\src\main\AndroidManifest.xml:14:19-60

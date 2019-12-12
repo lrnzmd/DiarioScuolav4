@@ -12,8 +12,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.diarioscuolav4.R
 import com.example.diarioscuolav4.appunti.db.Note
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import kotlinx.android.synthetic.main.activity_calendario.*
 
 import kotlinx.android.synthetic.main.activity_note.*
+import kotlinx.android.synthetic.main.activity_note.toolbar
 
 class NoteActivity : AppCompatActivity() {
 
@@ -23,6 +25,8 @@ class NoteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_note)
+        setSupportActionBar(toolbar)
+
 
         noteViewModel = ViewModelProvider(this).get(NoteViewModel::class.java)
 

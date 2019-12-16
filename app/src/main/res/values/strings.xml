@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DiarioScuolav4</string>
+    <string name="title_activity_note">note</string>
+    <string name="title_activity_calendario">calendario</string>
+</resources>

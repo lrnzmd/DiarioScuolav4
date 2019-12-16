@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.diarioscuolav4"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:5:5-38:19
+12        android:allowBackup="true"
+12-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\b6067a739310aaac8e93c3d3d1166bea\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:12:9-14:59
+22            android:name="com.example.diarioscuolav4.notizie.notizie"
+22-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:13:13-44
+23            android:theme="@style/AppTheme.NoActionBar" />
+23-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:14:13-56
+24        <activity
+24-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:15:9-16:58
+25            android:name="com.example.diarioscuolav4.lezioni.LezioniActivity"
+25-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:15:19-58
+26            android:theme="@style/AppTheme.NoActionBar" />
+26-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:16:13-56
+27        <activity
+27-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:17:9-18:58
+28            android:name="com.example.diarioscuolav4.impostazioni.impostazioni"
+28-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:17:19-60
+29            android:theme="@style/AppTheme.NoActionBar" />
+29-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:18:13-56
+30        <activity
+30-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:19:9-20:59
+31            android:name="com.example.diarioscuolav4.compiti.compiti"
+31-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:19:19-50
+32            android:theme="@style/AppTheme.NoActionBar" />
+32-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:20:13-56
+33        <activity
+33-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:21:9-22:58
+34            android:name="com.example.diarioscuolav4.appunti.AddNote"
+34-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:21:19-50
+35            android:theme="@style/AppTheme.NoActionBar" />
+35-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:22:13-56
+36        <activity
+36-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:23:9-26:59
+37            android:name="com.example.diarioscuolav4.calendario.calendario"
+37-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:24:13-50
+38            android:label="@string/title_activity_calendario"
+38-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:25:13-62
+39            android:theme="@style/AppTheme.NoActionBar" />
+39-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:26:13-56
+40        <activity
+40-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:27:9-30:59
+41            android:name="com.example.diarioscuolav4.appunti.NoteActivity"
+41-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:28:13-49
+42            android:label="@string/title_activity_note"
+42-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:29:13-56
+43            android:theme="@style/AppTheme.NoActionBar" />
+43-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:30:13-56
+44        <activity android:name="com.example.diarioscuolav4.MainActivity" >
+44-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:31:9-37:20
+44-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:31:19-47
+45            <intent-filter>
+45-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:32:13-36:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:33:17-69
+46-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:33:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:35:17-77
+48-->C:\Users\lrnzm\Desktop\DiarioScuolav4-4\app\src\main\AndroidManifest.xml:35:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <service
+52-->[androidx.room:room-runtime:2.2.2] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\4f1ebdb794163d890f2c73d30503b876\room-runtime-2.2.2\AndroidManifest.xml:25:9-27:40
+53            android:name="androidx.room.MultiInstanceInvalidationService"
+53-->[androidx.room:room-runtime:2.2.2] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\4f1ebdb794163d890f2c73d30503b876\room-runtime-2.2.2\AndroidManifest.xml:26:13-74
+54            android:exported="false" />
+54-->[androidx.room:room-runtime:2.2.2] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\4f1ebdb794163d890f2c73d30503b876\room-runtime-2.2.2\AndroidManifest.xml:27:13-37
+55
+56        <provider
+56-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\26be679d1fddda315ea453b731cdb62f\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:25:9-29:43
+57            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\26be679d1fddda315ea453b731cdb62f\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:26:13-79
+58            android:authorities="com.example.diarioscuolav4.lifecycle-process"
+58-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\26be679d1fddda315ea453b731cdb62f\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:27:13-69
+59            android:exported="false"
+59-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\26be679d1fddda315ea453b731cdb62f\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:28:13-37
+60            android:multiprocess="true" />
+60-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\lrnzm\.gradle\caches\transforms-2\files-2.1\26be679d1fddda315ea453b731cdb62f\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:29:13-40
+61    </application>
+62
+63</manifest>
